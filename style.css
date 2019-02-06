@@ -1,5 +1,7 @@
 body {
     background-color: #FFFBF6;
+    margin: 0px;
+    padding: 0px;
 }
 /* top picture and text */
 .top-picture img {
@@ -24,7 +26,7 @@ body {
     color: #FFFBF6;
     position: absolute;
     left: 582px;
-    bottom: 102px;  
+    bottom: 103px;  
 }
 /* box-1 who are we? */
 .box-1 {
@@ -80,8 +82,8 @@ body {
 }
 .middle-picture .subheader h2 {
     position: absolute;
-    top: 1832px;
-    left: 614px;
+    top: 1840px;
+    left: 568px;
     font-family: helvetica;
     font-size: 52px;
     color : #FFFBF6;
@@ -101,7 +103,7 @@ body {
     font-weight: normal;
     font-size : 110px;
     margin: 0px;
-    padding: 28px 0px 36px 0px;
+    padding: 36px 0px 36px 0px;
 }
 .box-2 .grid {
     display: grid;
