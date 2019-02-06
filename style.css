@@ -15,11 +15,19 @@ body {
 #top-picture h1 {
     border: 8px solid #FFFBF6;
     padding: 5rem 3rem;
+    background: #FFFBF640;
+}
+#top-picture legend{
+    border: 8px solid #FFFBF6;
+}
+#top-picture fieldset{
+    border: 8px solid #FFFBF6;
 }
 #top-picture h2{
+    background: #FFFBF640;
     border: 8px solid #FFFBF6;
     padding: 0.2rem 1.3rem;
-    margin-top: -7%;
+    margin-top: -100px;
 }
 .picture-header {
     color: #FFFBF6;
