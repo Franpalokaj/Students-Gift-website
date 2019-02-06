@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
 }
+/* Top-picture & text */
 #top-picture {
     background-image: url("img/top-picture.jpg");
     background-size: cover;
@@ -16,12 +17,6 @@ body {
     border: 8px solid #FFFBF6;
     padding: 5rem 3rem;
     background: #FFFBF640;
-}
-#top-picture legend{
-    border: 8px solid #FFFBF6;
-}
-#top-picture fieldset{
-    border: 8px solid #FFFBF6;
 }
 #top-picture h2{
     background: #FFFBF640;
@@ -41,4 +36,166 @@ body {
     font-weight: normal;
     font-size: 2.2rem;
     color: #FFFBF6;
+}
+/* first box of text*/
+.box-1 {
+    width: 940px;
+    margin: auto;
+    color : #21282B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box-1 h1 {
+    text-align: center;
+    font-family : Signatra DEMO;
+    font-weight: normal;
+    font-size : 7rem;
+    margin: 0px 0px -35px 0px;
+    padding-top: 40px;
+}
+.box-1 p {
+    font-family : Helvetica;
+    font-weight: lighter;
+    font-size : 2.2rem;
+    text-align: center;
+    margin: 0px;
+    padding: 40px 0px;
+}
+.box-1 h4 {
+    font-family: Signatra Demo;
+    font-weight: normal;
+    font-size: 2.5rem;
+    background: #21282B;
+    color: #FFFBF6;
+    text-align: center;
+    width: 20%;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 0px 0px 40px 0px;
+}
+/* middle picture & text*/
+#middle-picture {
+    background-image: url("img/volunteer.jpg");
+    background-size: cover;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#text-quote {
+    border: 8px solid #FFFBF6;
+    padding: 0rem 2rem;
+    background: #FFFBF640;
+}
+#text-quote h1{
+    margin-top: 35px;
+    font-size: 5rem;
+}
+#text-quote h3{
+    text-align: center;
+    color: #FFFBF6;
+    font-family: Signatra DEMO;
+    font-size: 3.3rem;
+    font-weight: normal;
+    margin-top: -40px;
+    margin-bottom: 50px;
+}
+#middle-picture h2{
+    background: #FFFBF640;
+    border: 8px solid #FFFBF6;
+    padding: 0.2rem 2rem;
+    margin-top: -35px;
+}
+/* box-2 why join and icons */
+.box-2 {
+    width: 960px;
+    margin: auto;
+    color : #21282B;
+    font-family: helvetica;
+    font-size: 1rem;
+}
+.box-2 .header h1{
+    text-align: center;
+    font-family : Signatra DEMO;
+    font-weight: normal;
+    font-size : 7rem;
+    margin: 0px 0px -10px 0px;
+    padding: 40px 0px;
+}
+.box-2 h2{
+    font-weight: lighter;
+}
+.box-2 .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 28px;
+    grid-row-gap: 28px;
+}
+/* meet people*/
+.box-2 .meetpeople {
+    text-align: center;
+}
+.box-2 .meetpeople img{
+    width: 85px;
+    height: 85px;
+}
+/* give love */
+.box-2 .givelove {
+    text-align: center;
+}
+.box-2 .givelove img{
+    width: 85px;
+    height: 85px;
+}
+/* organize events*/
+.box-2 .events {
+    text-align: center;
+}
+.box-2 .events img{
+    width: 85px;
+    height: 85px;
+}
+/* no commitments */
+.box-2 .nocommitments {
+    width: 300px;
+    text-align: center;
+}
+.box-2 .nocommitments img{
+    width: 85px;
+    height: 85px;
+}
+/* share your talents */
+.box-2 .share {
+    width: 300px;
+    text-align: center;
+}
+.box-2 .share img{
+    width: 85px;
+    height: 85px;
+}
+/* tons of laughter */
+.box-2 .laughter {
+    width: 300px;
+    text-align: center;
+}
+.box-2 .laughter img{
+    width: 85px;
+    height: 85px;
+}
+.box-2 h4 {
+    position: relative;
+    left: 39%;
+    font-family: Signatra Demo;
+    font-weight: normal;
+    font-size: 2.5rem;
+    background: #21282B;
+    color: #FFFBF6;
+    text-align: center;
+    width: 20%;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 20px 0px 40px 0px;
 }
